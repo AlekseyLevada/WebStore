@@ -1,4 +1,4 @@
-@media (max-width:1024px) {
+@media (min-width:992px) and (max-width:1199px) {
     .hero__inner_section {
         min-height: 700px;
     }
@@ -33,7 +33,7 @@
 
 
 
-@media (max-width:768px) {
+@media (min-width:768px) and (max-width:991px){
     .hero__header {
         .hero__header_logo {
             width: unset;

@@ -50,10 +50,6 @@ body {
   width: 100%;
 }
 
-.hero__header_section {
-  min-height: 154px;
-}
-
 .content__container {
   max-width: 960px;
   margin: 0 auto;
@@ -68,7 +64,7 @@ body {
 }
 .hero__header .hero__header_logo {
   cursor: pointer;
-  width: 60%;
+  width: 58%;
 }
 .hero__header .hero__header_phone {
   cursor: pointer;
