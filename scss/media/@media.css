@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+  .hero__inner_section {
+    min-height: 700px;
+  }
+  .imac__container {
+    right: 5%;
+  }
+  .imac__container img {
+    width: 550px;
+  }
+  .container__text {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__text .hero__intro_order_button {
+    width: 300px;
+    align-self: center;
+  }
+  .hero__about_section {
+    padding-top: 200px;
+    min-height: 1300px;
+  }
+  .hero__footer_contacts {
+    padding: 15px;
+  }
+}/*# sourceMappingURL=@media.css.map */
