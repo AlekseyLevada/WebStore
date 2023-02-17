@@ -360,11 +360,16 @@ body {
         font-weight: 700;
         line-height: 22px;
     }
-    span {
-        font-family: 'Roboto', 'Roboto light', sans-serif;
-        font-weight: 300px;
-        font-size: 13px;
-        line-height: 22px;
+    div {
+        span {
+            font-family: 'Roboto', 'Roboto light', sans-serif;
+            font-weight: 300px;
+            font-size: 13px;
+            line-height: 22px;
+            a {
+                color: #74767f;
+            }
+        }
     }
 }
 

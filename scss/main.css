@@ -319,11 +319,14 @@ body {
   font-weight: 700;
   line-height: 22px;
 }
-.hero__footer_contacts span {
+.hero__footer_contacts div span {
   font-family: "Roboto", "Roboto light", sans-serif;
   font-weight: 300px;
   font-size: 13px;
   line-height: 22px;
+}
+.hero__footer_contacts div span a {
+  color: #74767f;
 }
 
 .contacts__address_phones {
