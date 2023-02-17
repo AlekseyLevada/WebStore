@@ -366,6 +366,7 @@ body {
   margin-right: 10px;
 }
 .email div span a {
+  font-weight: bold;
   color: #E12541;
 }
 

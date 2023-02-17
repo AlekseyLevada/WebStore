@@ -328,7 +328,7 @@ body {
 
 .hero__footer_section {
     background-image: url('../img/map.png');
-    font-family: 'Roboto','Roboto light', sans-serif;
+    font-family: 'Roboto', 'Roboto light', sans-serif;
     font-weight: 300;
     background-size: cover;
     background-repeat: no-repeat;
@@ -338,6 +338,7 @@ body {
     align-items: flex-end;
     justify-content: center;
     position: relative;
+
     &:before {
         display: block;
         content: url('../img/marker.png');
@@ -354,18 +355,21 @@ body {
     display: flex;
     justify-content: space-between;
     width: 1030px;
-    p{
-        font-family: 'Roboto','Roboto regular', sans-serif;
+
+    p {
+        font-family: 'Roboto', 'Roboto regular', sans-serif;
         font-size: 13px;
         font-weight: 700;
         line-height: 22px;
     }
+
     div {
         span {
             font-family: 'Roboto', 'Roboto light', sans-serif;
             font-weight: 300px;
             font-size: 13px;
             line-height: 22px;
+
             a {
                 color: #74767f;
             }
@@ -413,13 +417,15 @@ body {
     p {
         margin-right: 10px;
     }
-div{
-    span {
-        a {
-            color: #E12541;
+
+    div {
+        span {
+            a {
+                font-weight: bold;
+                color: #E12541;
+            }
         }
-    }   
-}
+    }
 }
 
 .skype {
