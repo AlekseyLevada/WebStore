@@ -13,7 +13,7 @@
     flex-direction: column;
   }
   .container__text .hero__intro_order_button {
-    width: 300px;
+    width: 200px;
     align-self: center;
   }
   .hero__about_section {
