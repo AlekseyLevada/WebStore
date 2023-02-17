@@ -50,17 +50,11 @@
     justify-content: center;
     align-items: center;
   }
-  .container__text {
-    text-align: left;
-    left: 20%;
-    position: relative;
-  }
   .container__text .hero__intro_order_button {
     height: 60px;
     width: 600px;
   }
   .imac__container {
-    transform: scale(0.5);
-    right: 23%;
+    display: none;
   }
 }/*# sourceMappingURL=@media.css.map */
