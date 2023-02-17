@@ -18,9 +18,31 @@
   }
   .hero__about_section {
     padding-top: 200px;
-    min-height: 1300px;
+    min-height: 1370px;
   }
   .hero__footer_contacts {
     padding: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .hero__header .hero__header_logo {
+    width: unset;
+  }
+  .hero__navbar {
+    display: none;
+  }
+  .hero__header_burger_menu {
+    text-align: -webkit-right;
+    display: block;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .hero__header_burger_menu .burger__shape {
+    width: 25px;
+    height: 2px;
+    background-color: #626670;
+    margin: 2px;
+    border-radius: 5px;
   }
 }/*# sourceMappingURL=@media.css.map */
