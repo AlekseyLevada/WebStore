@@ -355,6 +355,15 @@ body {
     }
 }
 
+.marker__link {
+    position: absolute;
+    top: 38%;
+    left: 48%;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+}
+
 .hero__footer_contacts {
     border-radius: 10px 10px 0px 0px;
     padding: 25px;
