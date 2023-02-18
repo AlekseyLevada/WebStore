@@ -49,6 +49,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 600px;
+  }
+  .hero__inner_content_container {
+    position: relative;
+    bottom: 20px;
+  }
+  .container__text h2 {
+    text-align: center;
+  }
+  .container__text span:nth-child(4) {
+    text-align: end;
+    display: block;
   }
   .container__text .hero__intro_order_button {
     height: 60px;
