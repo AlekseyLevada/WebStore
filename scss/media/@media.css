@@ -238,10 +238,16 @@
     width: 300px;
   }
   .hero__about_section {
-    min-height: 1160px;
+    position: relative;
+    z-index: 2;
+    min-height: 1100px;
   }
   .hero__about_section .content__container .hero__about_imgs {
     display: none;
+  }
+  .hero__footer_section {
+    position: relative;
+    z-index: 1;
   }
   .hero__footer_contacts {
     padding: 5px;
