@@ -33,7 +33,7 @@
 
 
 
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:768px) and (max-width:991px) {
     .hero__header {
         .hero__header_logo {
             width: unset;
@@ -76,19 +76,65 @@
         h2 {
             text-align: center;
         }
+
         span {
             &:nth-child(4) {
                 text-align: end;
                 display: block;
             }
         }
+
         .hero__intro_order_button {
             height: 60px;
-            width: 600px;
+            width: 550px;
         }
     }
 
     .imac__container {
         display: none;
+    }
+
+    .hero__about_section {
+        padding-top: 130px;
+        min-height: 1300px;
+
+        .content__container {
+            display: unset;
+
+            .hero__about_text {
+                width: 100%;
+                text-align: justify;
+
+                h2 {
+                    margin-bottom: 50px;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                }
+            }
+
+            .hero__about_imgs {
+                display: flex;
+                width: unset;
+                padding: 15px;
+
+                .imgs__camera {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .imgs__notebook_pensil {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 }

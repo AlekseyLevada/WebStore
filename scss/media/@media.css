@@ -64,9 +64,44 @@
   }
   .container__text .hero__intro_order_button {
     height: 60px;
-    width: 600px;
+    width: 550px;
   }
   .imac__container {
     display: none;
+  }
+  .hero__about_section {
+    padding-top: 130px;
+    min-height: 1300px;
+  }
+  .hero__about_section .content__container {
+    display: unset;
+  }
+  .hero__about_section .content__container .hero__about_text {
+    width: 100%;
+    text-align: justify;
+  }
+  .hero__about_section .content__container .hero__about_text h2 {
+    margin-bottom: 50px;
+  }
+  .hero__about_section .content__container .hero__about_text p {
+    margin-bottom: 20px;
+  }
+  .hero__about_section .content__container .hero__about_imgs {
+    display: flex;
+    width: unset;
+    padding: 15px;
+  }
+  .hero__about_section .content__container .hero__about_imgs .imgs__camera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__about_section .content__container .hero__about_imgs .imgs__notebook_pensil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__about_section .content__container .hero__about_imgs img {
+    width: 100%;
   }
 }/*# sourceMappingURL=@media.css.map */
