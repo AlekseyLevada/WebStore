@@ -1,5 +1,3 @@
-@charset "UTF-8";
-/*Минимальный 992px и максимальный  1199px*/
 @media (min-width: 992px) and (max-width: 1199px) {
   .hero__inner_section {
     min-height: 700px;
@@ -26,7 +24,6 @@
     padding: 15px;
   }
 }
-/*Минимальный 768px и максимальный  991px*/
 @media (min-width: 768px) and (max-width: 991px) {
   .hero__header .hero__header_logo {
     width: unset;
@@ -202,58 +199,52 @@
   .hero__header .hero__header_phone {
     display: none;
   }
-  .hero__navbar {
-    display: none;
-  }
-  .hero__header_burger_menu {
-    text-align: -webkit-right;
-    display: block;
-    cursor: pointer;
-    margin-top: 30px;
-    margin-right: 20px;
-  }
-  .hero__header_burger_menu .burger__shape {
-    width: 25px;
-    height: 2px;
-    background-color: #626670;
-    margin: 2px;
-    border-radius: 5px;
-  }
   .hero__inner_section {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 600px;
+  }
+  .container__text {
+    width: 100%;
   }
   .container__text h1 {
     font-size: 40px;
+    text-align: center;
   }
   .container__text span {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
   }
+  .container__text span:nth-child(2) {
+    position: relative;
+    left: 20%;
+  }
+  .container__text span:nth-child(4) {
+    position: relative;
+    right: 10%;
+  }
   .container__text .hero__intro_order_button {
-    margin: 30px auto 10px auto;
     height: 60px;
-    width: 300px;
+    width: 350px;
+    margin: 50px auto 0px auto;
   }
   .hero__about_section {
-    position: relative;
-    z-index: 2;
     min-height: 1100px;
+  }
+  .hero__about_section .content__container {
+    display: unset;
+  }
+  .hero__about_section .content__container .hero__about_text {
+    width: 100%;
+    text-align: justify;
+  }
+  .hero__about_section .content__container .hero__about_text h2 {
+    margin-bottom: 50px;
+  }
+  .hero__about_section .content__container .hero__about_text p {
+    margin-bottom: 20px;
   }
   .hero__about_section .content__container .hero__about_imgs {
     display: none;
-  }
-  .hero__footer_section {
-    position: relative;
-    z-index: 1;
-  }
-  .hero__footer_contacts {
-    padding: 5px;
-    flex-direction: column;
-  }
-  .contacts__address_phones {
-    width: 100%;
   }
 }/*# sourceMappingURL=@media.css.map */
