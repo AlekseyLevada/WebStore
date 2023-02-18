@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*Минимальный 992px и максимальный  1199px*/
 @media (min-width: 992px) and (max-width: 1199px) {
   .hero__inner_section {
     min-height: 700px;
@@ -24,6 +26,7 @@
     padding: 15px;
   }
 }
+/*Минимальный 768px и максимальный  991px*/
 @media (min-width: 768px) and (max-width: 991px) {
   .hero__header .hero__header_logo {
     width: unset;
@@ -95,6 +98,93 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .hero__about_section .content__container .hero__about_imgs .imgs__camera img {
+    width: 80%;
+  }
+  .hero__about_section .content__container .hero__about_imgs .imgs__notebook_pensil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__about_section .content__container .hero__about_imgs img {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .hero__header .hero__header_logo {
+    width: unset;
+  }
+  .hero__navbar {
+    display: none;
+  }
+  .hero__header_burger_menu {
+    text-align: -webkit-right;
+    display: block;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .hero__header_burger_menu .burger__shape {
+    width: 25px;
+    height: 2px;
+    background-color: #626670;
+    margin: 2px;
+    border-radius: 5px;
+  }
+  .hero__inner_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+  }
+  .hero__inner_content_container {
+    position: relative;
+    bottom: 20px;
+  }
+  .container__text h2 {
+    text-align: center;
+  }
+  .container__text span:nth-child(4) {
+    text-align: end;
+    display: block;
+  }
+  .container__text .hero__intro_order_button {
+    height: 60px;
+    width: 550px;
+  }
+  .imac__container {
+    display: none;
+  }
+  .hero__about_section {
+    padding-top: 130px;
+    min-height: 1300px;
+  }
+  .hero__about_section .content__container {
+    display: unset;
+  }
+  .hero__about_section .content__container .hero__about_text {
+    width: 100%;
+    text-align: justify;
+  }
+  .hero__about_section .content__container .hero__about_text h2 {
+    margin-bottom: 50px;
+  }
+  .hero__about_section .content__container .hero__about_text p {
+    margin-bottom: 20px;
+  }
+  .hero__about_section .content__container .hero__about_imgs {
+    display: flex;
+    width: unset;
+    padding: 15px;
+  }
+  .hero__about_section .content__container .hero__about_imgs .imgs__camera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__about_section .content__container .hero__about_imgs .imgs__camera img {
+    width: 80%;
   }
   .hero__about_section .content__container .hero__about_imgs .imgs__notebook_pensil {
     display: flex;
