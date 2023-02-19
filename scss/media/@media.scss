@@ -35,6 +35,7 @@
 
 
 @media (min-width:768px) and (max-width:991px) {
+
     .hero__header {
         .hero__header_logo {
             width: unset;
@@ -45,20 +46,8 @@
         display: none;
     }
 
-    .hero__header_burger_menu {
-        text-align: -webkit-right;
-        display: block;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-right: 20px;
-
-        .burger__shape {
-            width: 25px;
-            height: 2px;
-            background-color: #626670;
-            margin: 2px;
-            border-radius: 5px;
-        }
+    .hero__burger_menu_wrapper {
+        display: flex;
     }
 
     .hero__inner_section {
@@ -160,20 +149,8 @@
         display: none;
     }
 
-    .hero__header_burger_menu {
-        text-align: -webkit-right;
-        display: block;
-        cursor: pointer;
-        margin-top: 30px;
-        margin-right: 20px;
-
-        .burger__shape {
-            width: 25px;
-            height: 2px;
-            background-color: #626670;
-            margin: 2px;
-            border-radius: 5px;
-        }
+    .hero__burger_menu_wrapper {
+        display: flex;
     }
 
     .hero__inner_section {
@@ -261,10 +238,11 @@
 
     .hero__footer_section {
         .hero__footer_contacts {
-            p{
+            p {
                 font-size: 10px;
             }
-            span{
+
+            span {
                 font-size: 10px;
             }
         }
@@ -276,72 +254,81 @@
 
 
 
-// @media (max-width:480px) {
-//     .hero__header {
-//         .hero__header_logo {
-//             width: unset;
-//         }
+@media (max-width:480px) {
+    .hero__header {
+        .hero__header_logo {
+            width: unset;
+        }
+        .hero__header_phone {
+            display: none;
+        }
+    }
 
-//         .hero__header_phone {
-//             display: none;
-//         }
-//     }
+    .hero__burger_menu_wrapper {
+        display: flex;
+    }
+    // .hero__inner_section {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
 
-//     .hero__inner_section {
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//     }
+    // .container__text {
+    //     width: 100%;
+    //     h1 {
+    //         font-size: 40px;
+    //         text-align: center;
+    //     }
 
-//     .container__text {
-//         width: 100%;
-//         h1 {
-//             font-size: 40px;
-//             text-align: center;
-//         }
+    //     span {
+    //         font-size: 40px;
+    //         font-weight: 400;
+    //         &:nth-child(2) {
+    //             position: relative;
+    //             left: 20%;
+    //         }
+    //         &:nth-child(4) {
+    //             position: relative;
+    //             right: 10%;
+    //         }
+    //     }
 
-//         span {
-//             font-size: 40px;
-//             font-weight: 400;
-//             &:nth-child(2) {
-//                 position: relative;
-//                 left: 20%;
-//             }
-//             &:nth-child(4) {
-//                 position: relative;
-//                 right: 10%;
-//             }
-//         }
+    //     .hero__intro_order_button {
+    //         height: 60px;
+    //         width: 350px;
+    //         margin: 50px auto 0px auto;
+    //     }
+    // }
 
-//         .hero__intro_order_button {
-//             height: 60px;
-//             width: 350px;
-//             margin: 50px auto 0px auto;
-//         }
-//     }
+    // .hero__about_section {
+    //     min-height: 1100px;
 
-//     .hero__about_section {
-//         min-height: 1100px;
+    //     .content__container {
+    //         display: unset;
 
-//         .content__container {
-//             display: unset;
+    //         .hero__about_text {
+    //             width: 100%;
+    //             text-align: justify;
 
-//             .hero__about_text {
-//                 width: 100%;
-//                 text-align: justify;
+    //             h2 {
+    //                 margin-bottom: 50px;
+    //             }
 
-//                 h2 {
-//                     margin-bottom: 50px;
-//                 }
+    //             p {
+    //                 margin-bottom: 20px;
+    //             }
+    //         }
 
-//                 p {
-//                     margin-bottom: 20px;
-//                 }
-//             }
+    //         .hero__about_imgs {
+    //             display: none;
+    //         }
+    //     }
+    // }
+}
 
-//             .hero__about_imgs {
-//                 display: none;
-//             }
-//         }
-//     }
-// }
+
+@media (min-width:320px) and (max-width:375px) {
+    .hero__burger_menu_wrapper {
+        display: flex;
+    }
+}

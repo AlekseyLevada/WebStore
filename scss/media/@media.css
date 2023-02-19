@@ -31,19 +31,8 @@
   .hero__navbar {
     display: none;
   }
-  .hero__header_burger_menu {
-    text-align: -webkit-right;
-    display: block;
-    cursor: pointer;
-    margin-top: 30px;
-    margin-right: 20px;
-  }
-  .hero__header_burger_menu .burger__shape {
-    width: 25px;
-    height: 2px;
-    background-color: #626670;
-    margin: 2px;
-    border-radius: 5px;
+  .hero__burger_menu_wrapper {
+    display: flex;
   }
   .hero__inner_section {
     display: flex;
@@ -116,19 +105,8 @@
   .hero__navbar {
     display: none;
   }
-  .hero__header_burger_menu {
-    text-align: -webkit-right;
-    display: block;
-    cursor: pointer;
-    margin-top: 30px;
-    margin-right: 20px;
-  }
-  .hero__header_burger_menu .burger__shape {
-    width: 25px;
-    height: 2px;
-    background-color: #626670;
-    margin: 2px;
-    border-radius: 5px;
+  .hero__burger_menu_wrapper {
+    display: flex;
   }
   .hero__inner_section {
     display: flex;
@@ -198,5 +176,21 @@
   }
   .hero__footer_section .hero__footer_contacts span {
     font-size: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .hero__header .hero__header_logo {
+    width: unset;
+  }
+  .hero__header .hero__header_phone {
+    display: none;
+  }
+  .hero__burger_menu_wrapper {
+    display: flex;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .hero__burger_menu_wrapper {
+    display: flex;
   }
 }/*# sourceMappingURL=@media.css.map */
