@@ -58,7 +58,7 @@ body {
   padding: 20px;
 }
 
-.hero__header_burger_menu {
+.hero__burger_menu {
   display: block;
   width: -moz-fit-content;
   width: fit-content;

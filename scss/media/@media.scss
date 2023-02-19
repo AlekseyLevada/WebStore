@@ -259,6 +259,7 @@
         .hero__header_logo {
             width: unset;
         }
+
         .hero__header_phone {
             display: none;
         }
@@ -267,68 +268,62 @@
     .hero__burger_menu_wrapper {
         display: flex;
     }
-    // .hero__inner_section {
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    // }
 
-    // .container__text {
-    //     width: 100%;
-    //     h1 {
-    //         font-size: 40px;
-    //         text-align: center;
-    //     }
+    .hero__inner_section {
+        min-height: 530px;
+    }
 
-    //     span {
-    //         font-size: 40px;
-    //         font-weight: 400;
-    //         &:nth-child(2) {
-    //             position: relative;
-    //             left: 20%;
-    //         }
-    //         &:nth-child(4) {
-    //             position: relative;
-    //             right: 10%;
-    //         }
-    //     }
+    .container__text {
+        text-align: center;
 
-    //     .hero__intro_order_button {
-    //         height: 60px;
-    //         width: 350px;
-    //         margin: 50px auto 0px auto;
-    //     }
-    // }
+        h1 {
+            font-size: 40px;
+        }
 
-    // .hero__about_section {
-    //     min-height: 1100px;
+        span {
+            font-size: 40px;
+            font-weight: 400;
 
-    //     .content__container {
-    //         display: unset;
+            &:nth-child(2) {
+                position: relative;
+                right: 30%;
+            }
 
-    //         .hero__about_text {
-    //             width: 100%;
-    //             text-align: justify;
+            &:nth-child(4) {
+                position: relative;
+                right: 10%;
+            }
+        }
 
-    //             h2 {
-    //                 margin-bottom: 50px;
-    //             }
+        .hero__intro_order_button {
+            height: 60px;
+            width: 350px;
+            margin: 20px auto 0px auto;
+        }
+    }
 
-    //             p {
-    //                 margin-bottom: 20px;
-    //             }
-    //         }
+    .hero__about_section {
+        min-height: 1100px;
 
-    //         .hero__about_imgs {
-    //             display: none;
-    //         }
-    //     }
-    // }
-}
+        .content__container {
+            display: unset;
 
+            .hero__about_text {
+                width: 100%;
+                text-align: justify;
 
-@media (min-width:320px) and (max-width:375px) {
-    .hero__burger_menu_wrapper {
-        display: flex;
+                h2 {
+                    margin-bottom: 50px;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                }
+            }
+
+            .hero__about_imgs {
+                display: none;
+            }
+        }
     }
 }

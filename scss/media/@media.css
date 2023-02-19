@@ -188,9 +188,49 @@
   .hero__burger_menu_wrapper {
     display: flex;
   }
-}
-@media (min-width: 320px) and (max-width: 375px) {
-  .hero__burger_menu_wrapper {
-    display: flex;
+  .hero__inner_section {
+    min-height: 530px;
+  }
+  .container__text {
+    text-align: center;
+  }
+  .container__text h1 {
+    font-size: 40px;
+  }
+  .container__text span {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .container__text span:nth-child(2) {
+    position: relative;
+    right: 30%;
+  }
+  .container__text span:nth-child(4) {
+    position: relative;
+    right: 10%;
+  }
+  .container__text .hero__intro_order_button {
+    height: 60px;
+    width: 350px;
+    margin: 20px auto 0px auto;
+  }
+  .hero__about_section {
+    min-height: 1100px;
+  }
+  .hero__about_section .content__container {
+    display: unset;
+  }
+  .hero__about_section .content__container .hero__about_text {
+    width: 100%;
+    text-align: justify;
+  }
+  .hero__about_section .content__container .hero__about_text h2 {
+    margin-bottom: 50px;
+  }
+  .hero__about_section .content__container .hero__about_text p {
+    margin-bottom: 20px;
+  }
+  .hero__about_section .content__container .hero__about_imgs {
+    display: none;
   }
 }/*# sourceMappingURL=@media.css.map */

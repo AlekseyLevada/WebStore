@@ -71,7 +71,8 @@ body {
     text-align: end;
     padding: 20px;
 }
-.hero__header_burger_menu {
+
+.hero__burger_menu {
     display: block;
     width: fit-content;
     padding: 10px;
@@ -137,7 +138,8 @@ body {
         background-color: #fff;
         border-radius: 21px;
         transition: .3s ease-in-out;
-        a{
+
+        a {
             color: #ad003e;
             font-family: 'Roboto', 'Roboto bold', sans-serif;
             font-weight: 700;
@@ -149,7 +151,8 @@ body {
             transition: .3s ease-in-out;
             background-color: #b30042;
             box-shadow: 0px 0px 7px #3A3C40;
-            a{
+
+            a {
                 color: #fff;
                 transition: .3s ease-in-out;
             }
