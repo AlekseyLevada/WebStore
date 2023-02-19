@@ -254,7 +254,7 @@
 
 
 
-@media (max-width:480px) {
+@media (min-width:320px) and (max-width:480px) {
     .hero__header {
         .hero__header_logo {
             width: unset;
@@ -270,7 +270,7 @@
     }
 
     .hero__inner_section {
-        min-height: 600px;
+        min-height: 550px;
     }
 
     .container__text {
@@ -303,7 +303,7 @@
     }
 
     .hero__about_section {
-        min-height: 1200px;
+        min-height: 1100px;
 
         .content__container {
             display: unset;
