@@ -189,7 +189,7 @@
     display: flex;
   }
   .hero__inner_section {
-    min-height: 530px;
+    min-height: 600px;
   }
   .container__text {
     text-align: center;
