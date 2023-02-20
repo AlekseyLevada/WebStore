@@ -299,7 +299,7 @@
     }
 
     .hero__about_section {
-        min-height: 1100px;
+        min-height: 1060px;
 
         .content__container {
             display: unset;
@@ -314,6 +314,7 @@
 
                 p {
                     margin-bottom: 20px;
+                    font-size: 14px;
                 }
             }
 
@@ -382,12 +383,11 @@
                 h2 {
                     margin-bottom: 30px;
                 }
+                p {
+                    font-size: 12px;
+                    line-height: 26px;
+                }
             }
-        }
-
-        p {
-            font-size: 12px;
-            line-height: 26px;
         }
     }
 

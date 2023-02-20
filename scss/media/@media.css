@@ -216,7 +216,7 @@
     margin: 20px auto;
   }
   .hero__about_section {
-    min-height: 1100px;
+    min-height: 1060px;
   }
   .hero__about_section .content__container {
     display: unset;
@@ -230,6 +230,7 @@
   }
   .hero__about_section .content__container .hero__about_text p {
     margin-bottom: 20px;
+    font-size: 14px;
   }
   .hero__about_section .content__container .hero__about_imgs {
     display: none;
@@ -280,7 +281,7 @@
   .hero__about_section .content__container .hero__about_text h2 {
     margin-bottom: 30px;
   }
-  .hero__about_section p {
+  .hero__about_section .content__container .hero__about_text p {
     font-size: 12px;
     line-height: 26px;
   }
