@@ -1,6 +1,8 @@
 @media (min-width:992px) and (max-width:1199px) {
     .hero__inner_section {
-        min-height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .imac__container {
@@ -21,17 +23,10 @@
         }
     }
 
-    .hero__about_section {
-        padding-top: 200px;
-        min-height: 1370px;
-    }
-
     .hero__footer_contacts {
         padding: 15px;
     }
 }
-
-
 
 
 @media (min-width:768px) and (max-width:991px) {
@@ -132,10 +127,18 @@
             }
         }
     }
+    .hero__footer_section {
+        .hero__footer_contacts {
+            p {
+                font-size: 10px;
+            }
+
+            span {
+                font-size: 10px;
+            }
+        }
+    }
 }
-
-
-
 
 
 @media (max-width:767px) {
@@ -250,11 +253,7 @@
 }
 
 
-
-
-
-
-@media (min-width:320px) and (max-width:480px) {
+@media (max-width:480px) {
     .hero__header {
         .hero__header_logo {
             width: unset;
@@ -267,10 +266,6 @@
 
     .hero__burger_menu_wrapper {
         display: flex;
-    }
-
-    .hero__inner_section {
-        min-height: 550px;
     }
 
     .container__text {
@@ -298,7 +293,7 @@
         .hero__intro_order_button {
             height: 60px;
             width: 350px;
-            margin: 20px auto 0px auto;
+            margin: 20px auto;
         }
     }
 
@@ -324,6 +319,39 @@
             .hero__about_imgs {
                 display: none;
             }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .hero__header {
+        flex-direction: column;
+    }
+
+    .hero__header_order-button {
+        margin: 15px;
+    }
+
+    .hero__burger_menu_wrapper {
+        padding: 10px;
+    }
+
+    .hero__inner_section {
+        min-height: 550px;
+    }
+
+    .container__text {
+        h1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        h2 {
+            font-size: 80px;
+        }
+        .hero__intro_order_button {
+            width: 200px;
+            height: 40px;
+            margin: 10 auto;
         }
     }
 }
