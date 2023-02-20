@@ -71,7 +71,7 @@
 
         .hero__intro_order_button {
             height: 60px;
-            width: 550px;
+            width: 350px;
             margin: 40px auto 10px auto;
         }
     }
@@ -183,7 +183,7 @@
 
         .hero__intro_order_button {
             height: 60px;
-            width: 550px;
+            width: 350px;
             margin: 30px auto;
         }
     }
@@ -393,17 +393,7 @@
 
     .hero__footer_section {
         .hero__footer_contacts {
-            padding: 5px;
-            flex-direction: column;
-            .contacts__address_phones {
-                width: 100%;
-                .contacts {
-                    margin-bottom: 10px;
-                }
-                .phones {
-                    margin-bottom: 10px;
-                }
-            }
+            display: none;
         }
     }
 }

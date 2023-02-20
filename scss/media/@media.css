@@ -51,7 +51,7 @@
   }
   .container__text .hero__intro_order_button {
     height: 60px;
-    width: 550px;
+    width: 350px;
     margin: 40px auto 10px auto;
   }
   .imac__container {
@@ -131,7 +131,7 @@
   }
   .container__text .hero__intro_order_button {
     height: 60px;
-    width: 550px;
+    width: 350px;
     margin: 30px auto;
   }
   .imac__container {
@@ -286,16 +286,6 @@
     line-height: 26px;
   }
   .hero__footer_section .hero__footer_contacts {
-    padding: 5px;
-    flex-direction: column;
-  }
-  .hero__footer_section .hero__footer_contacts .contacts__address_phones {
-    width: 100%;
-  }
-  .hero__footer_section .hero__footer_contacts .contacts__address_phones .contacts {
-    margin-bottom: 10px;
-  }
-  .hero__footer_section .hero__footer_contacts .contacts__address_phones .phones {
-    margin-bottom: 10px;
+    display: none;
   }
 }/*# sourceMappingURL=@media.css.map */
